@@ -15,3 +15,8 @@ if (a.trim() === b.trim()) {
 } else {
   console.log("nonwater");
 }
+
+const sentence = "i am learning JavaScript";
+
+const reversed = sentence.split("").reverse().join("");
+console.log(reversed);
