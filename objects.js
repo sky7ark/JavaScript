@@ -5,6 +5,8 @@ const player = {
   "fav food": ["pizza, pasta"],
 };
 
-player.name = "nur";
+player.name = "jamy";
+const changeadd = "address";
+player[changeadd] = "america";
 
-console.log(player["name"]);
+console.log(player["address"]);

@@ -19,4 +19,4 @@ price =
     ? price > 1000
       ? console.log(price / 2)
       : console.log(0)
-    : console.log(price + 1000);
+    : console.log(price + 100);
