@@ -20,9 +20,14 @@ const myBetterHalf = {
   boyosh: 20,
 };
 
+const amaderBiye = {
+  date: "22 december 2029",
+};
+
 const together = {
   ...myinfo,
   ...myBetterHalf,
+  ...amaderBiye,
 };
 
 console.log(together);
