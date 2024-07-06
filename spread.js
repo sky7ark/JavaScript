@@ -38,6 +38,14 @@ const myaddress = {
   house: 10,
   road: "shewrapara",
   area: "Mirpur",
+  postal: {
+    code: 1200005,
+  },
 };
 
 console.log(myaddress.postal?.code);
+
+//optional chaining with ternary operator
+
+const myPostalCode = myaddress.postal?.code ? myaddress.postal.code : 1205;
+console.log(myPostalCode);
