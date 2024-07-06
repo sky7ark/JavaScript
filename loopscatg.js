@@ -15,3 +15,19 @@ const info = {
 for (let key in info) {
   console.log(info[key]);
 }
+
+//for each for arrays
+
+const namess = ["aa", "bb", "cc", "dd", ""];
+namess.forEach((value) => console.log(value));
+
+//using map creating object
+const naam = ["aa", "bb", "cc", "dd", ""];
+const namelist = naam.map((value) => {
+  return {
+    name: value.substring(0, 1),
+    age: 25,
+  };
+});
+
+console.log(namelist);
