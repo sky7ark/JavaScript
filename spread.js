@@ -4,7 +4,7 @@ function sum(a, b, ...params) {
   params.forEach((num) => {
     sum = sum + num;
   });
-  console.log(sum);
+  //  console.log(sum);
 }
 
 sum(1, 3, 34, 5, 4, 5, 6, 22, 34, 55, 4);
@@ -30,4 +30,14 @@ const together = {
   ...amaderBiye,
 };
 
-console.log(together);
+//console.log(together);
+
+//optional chaining
+
+const myaddress = {
+  house: 10,
+  road: "shewrapara",
+  area: "Mirpur",
+};
+
+console.log(myaddress.postal?.code);
